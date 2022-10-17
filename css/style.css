@@ -79,6 +79,7 @@
     color: var(--color-black);
     text-align: center;
     margin-top: 130px;
+    background-color: var(--color-white);
 }
 
 .h1 {
@@ -106,3 +107,99 @@
 }
 
 /* ### statistic page ##*/
+
+.section-statistic {
+    background-color: var(--color-white);
+    border-bottom: 1px solid var(--color-light-grey);
+}
+
+.h2 {
+    font-family: var(--raleway-font);
+    font-size: 36px;
+    padding: 100px;
+}
+
+.section-statistic-container-boxes {
+    display: flex;
+    justify-content: space-evenly;
+    width: 1100px;
+    padding-bottom: 120px;
+    
+}
+
+.boxes-box {
+    width:30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.box {
+    width: 63px;
+    height: 63px;
+    border-radius: 50%;
+    align-self: center;
+}
+
+.box-box1 {
+    background: var(--color-redish);
+}
+
+.box-box1::before {
+    content: "";
+    position: absolute;
+    background-image: url(../assets/Person.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 75px;
+    height: 55px;
+}
+
+.box-box2 {
+    background: var(--color-primary);
+}
+
+.box-box2::before {
+    content: "";
+    position: absolute;
+    background-image: url(../assets/Eye.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 85px;
+    height: 55px;
+}
+
+.box-box3 {
+    background: var(--color-green);
+}
+
+.box-box3::before {
+    content: "";
+    position: absolute;
+    background-image: url(../assets/Catalog.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 85px;
+    height: 60px;
+}
+
+.box-title {
+    font-family: var(--raleway-font);
+    color: var(--color-black);
+    font-weight: 900;
+    text-align: center;
+    letter-spacing: 6px;
+    padding: 20px;
+}
+
+.box-paragraph {
+    font-family: var(--raleway-font);
+    text-align: center;
+    font-size: 16px;
+    color: var(--color-grey);
+}
+
+/* ### benefits page ##*/
+
+.section-benefits {
+    background-color: var(--color-light-grey);
+}
