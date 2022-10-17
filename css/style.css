@@ -202,4 +202,140 @@
 
 .section-benefits {
     background-color: var(--color-light-grey);
+    padding: 100px 0;
+}
+
+.benefit-container-box {
+    height: 370px;
+    background-color: var(--color-white);
+    border: 1px solid #E8E9ED;
+    border-radius: 5px;
+}
+
+.h3 {
+    font-family: var(--raleway-font);
+    color: var(--color-black);
+    font-size: 36px;
+    text-align: left;
+}
+
+.benefit-box-paragraph{
+    font-family: var(--open-font);
+    color: var(--color-black);
+    font-size: 16px;
+    text-align: left;
+    padding: 30px 0 50px;
+}
+
+.benefit-box {
+    display: flex;
+}
+
+.benefit-box1 {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.benefit-box1-text {
+    width: 416px;
+    height: 190px;
+    margin: 90px 0 90px 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.benefit-box1-text::after {
+    content: "";
+    height: 4px;
+    background: var(--color-redish);
+    max-width: 325px; 
+}
+
+.benefit-box-img {
+    /*width: 400px;*/
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    margin-right: 70px;
+}
+
+.benefit-box-img-style {
+    width: 435px;
+    height: 295px;
+    display: flex;
+    align-items:center;   
+}
+
+.benefit-box-img-style::after {
+    content: "";
+    position: absolute;
+    background-image: url(../assets/Macbook.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 385px;
+    height: 220px;  
+}
+
+.benefit-box-img-style::before {
+    content: "";
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    background-color: var(--color-redish);
+    border-radius: 40px;
+    transform: matrix(0.71, 0.71, -0.71, 0.71, 200, -50);
+
+}
+
+
+
+
+/*.benefit-box-img {
+    width: 435px;
+    height: 295px;
+    margin: 40px 70px 40px;
+    display: flex;
+    align-items: flex-end;
+    background-image: url(../assets/Macbook.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 385px;
+    height: 220px;
+}*/
+
+
+
+/*.img {
+    background-image: url(../assets/Macbook.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 385px;
+    height: 220px;
+}*/
+
+
+
+
+
+/*.img-bgd {
+    width: 255px;
+    height: 255px;
+    background-color: var(--color-redish);
+    border-radius: 41px;
+    margin: 35px 70px 0 0;
+    transform: rotate(45deg);
+}*/
+
+/*.benefit-box-img {
+    background-image: url(../assets/Macbook.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 385px;
+    height: 220px;
+}*/
+
+.benefit-box2 {
+    margin: 35px 0;
 }
