@@ -362,12 +362,97 @@
 .benefit-box3-pic {
     width: 32%;
     background-color: var(--color-green);
+    border: 1px solid #E8E9ED;
+    border-radius: 5px;
 }
 
 .benefit-box3-pic img {
     margin: 100px 80px 0 60px;
 }
 
+.section-pricing {
+    background-color: var(--color-white);
+}
+
+/* ### sekcja Pricing ### */
+
+.pricing-container-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1266px;
+}
+
+.pricing-boxes {
+    border: 1px solid;
+    border-radius: 18px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pricing-box-1 {
+    border-color: var(--color-redish);
+    width: 372px;
+    height: 461px;
+}
+
+.pricing-box-2 {
+    border-color: var(--color-primary);
+    width: 405px;
+    height: 500px;
+}
+
+.pricing-box-3 {
+    border-color: var(--color-green);
+    width: 372px;
+    height: 461px;
+}
+
+.h4 {
+    font-family: var(--raleway-font);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.h4-2 {
+    font-family: var(--raleway-font);
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.price-1 {
+    font-family: var(--open-font);
+    font-size: 46px;
+    font-weight: 300;
+    color: var(--color-redish);
+}
+
+.price-2 {
+    font-family: var(--open-font);
+    font-size: 46px;
+    font-weight: 300;
+    color: var(--color-primary);
+}
+
+.price-3 {
+    font-family: var(--open-font);
+    font-size: 46px;
+    font-weight: 300;
+    color: var(--color-green);
+}
+
+.box-text {
+    font-family: var(--open-font);
+    font-size: 14px;
+    color: var(--color-black)
+}
+
+.text-line-1 {
+    font-family: var(--raleway-font);
+    font-weight: bold;
+    font-size: 12px;
+}
 
 /*.benefit-box-img {
     width: 435px;
