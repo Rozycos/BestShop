@@ -391,11 +391,40 @@
     align-items: center;
 }
 
+.pricing-properities-1 {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+   padding-bottom: 55px;
+   padding-top: 70px;
+   
+}
+
+.pricing-properities-2 {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+   padding-bottom: 55px;
+   padding-top: 75px;
+   
+}
+
+.pricing-properities-3 {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+   padding-bottom: 55px;
+   padding-top: 50px;
+   
+}
+
 .pricing-box-1 {
     border-color: var(--color-redish);
     width: 372px;
     height: 461px;
 }
+
+
 
 .pricing-box-2 {
     border-color: var(--color-primary);
@@ -413,12 +442,14 @@
     font-family: var(--raleway-font);
     font-weight: bold;
     font-size: 20px;
+    padding-top: 35px;
 }
 
 .h4-2 {
     font-family: var(--raleway-font);
     font-weight: bold;
     font-size: 21px;
+    padding-top: 35px;
 }
 
 .price-1 {
@@ -426,6 +457,7 @@
     font-size: 46px;
     font-weight: 300;
     color: var(--color-redish);
+    padding: 15px;
 }
 
 .price-2 {
@@ -433,6 +465,7 @@
     font-size: 46px;
     font-weight: 300;
     color: var(--color-primary);
+    padding: 15px;
 }
 
 .price-3 {
@@ -440,19 +473,102 @@
     font-size: 46px;
     font-weight: 300;
     color: var(--color-green);
+    padding: 15px;
 }
 
 .box-text {
     font-family: var(--open-font);
     font-size: 14px;
-    color: var(--color-black)
+    color: var(--color-black);
+    padding: 10px;
 }
 
 .text-line-1 {
     font-family: var(--raleway-font);
     font-weight: bold;
     font-size: 12px;
+    padding: 10px;
 }
+
+.price-link-1 {
+    background-color: var(--color-redish);
+    border-radius: 23px;
+    padding: 16px;
+    min-width: 150px;
+    display: flex;
+    justify-content: center;
+   position: relative; 
+   bottom: -45px;
+    
+    
+}
+
+.price-link-1 a{
+    text-decoration: none;
+    color: var(--color-white);
+    font-family: var(--open-font);
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.price-link-2 {
+    background-color: var(--color-primary);
+    border-radius: 23px;
+    padding: 16px;
+    min-width: 150px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: -10px;
+}
+
+.price-link-2 a{
+    text-decoration: none;
+    color: var(--color-white);
+    font-family: var(--open-font);
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.price-link-3 {
+    background-color: var(--color-green);
+    border-radius: 23px;
+    padding: 16px;
+    min-width: 150px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    
+}
+
+.price-link-3 a{
+    text-decoration: none;
+    color: var(--color-white);
+    font-family: var(--open-font);
+    font-size: 13px;
+    font-weight: bold;
+    
+}
+
+.text-line-2::before {
+    content: "";
+    width: 11px;
+    height: 11px;
+    display: inline-block;
+    margin-right: 10px;
+    background-image: url(../assets/Ckechmark-1.svg);
+}
+
+.text-line-3::before {
+    content: "";
+    width: 11px;
+    height: 11px;
+    display: inline-block;
+    margin-right: 10px;
+    background-image: url(../assets/Close.svg);
+}
+
+
 
 /*.benefit-box-img {
     width: 435px;
@@ -465,6 +581,18 @@
     background-size: cover;
     width: 385px;
     height: 220px;
+
+
+
+
+content: "";
+    position: absolute;
+    background-image: url(../assets/Catalog.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 85px;
+    height: 60px;
+
 }*/
 
 
