@@ -430,6 +430,7 @@
     border-color: var(--color-primary);
     width: 405px;
     height: 500px;
+    box-shadow: 5px 10px 27px #07ACE629;
 }
 
 .pricing-box-3 {
@@ -568,7 +569,139 @@
     background-image: url(../assets/Close.svg);
 }
 
+/* ### sekcja kontakt ### */
+.section-contact-container {
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 170px;
+}
 
+.contact-info {
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+}
+
+.contact-info strong {
+	font-family: var(--raleway-font);
+	font-size: 49px;
+}
+
+.contact-info p {
+	font-family: var(--open-font);
+	font-size: 16px;
+	padding: 22px 0;
+}
+
+.contact-info span {
+	display: flex;
+	justify-content: space-between;
+}
+
+.contact-info-email a {
+	font-family: var(--open-font);
+	font-size: 16px;
+	font-weight: 600;
+	text-decoration: none;
+	color: var(--color-grey);
+}
+
+.phone a {
+	font-family: var(--open-font);
+	font-size: 16px;
+	font-weight: 600;
+	color: var(--color-grey);
+	text-decoration: none;
+}
+
+/* ### sekcja kontakt-formularz ### */
+
+.form {
+	width: 440px;
+	display: flex;
+	flex-direction: column;
+	font-family: var(--open-font);
+}
+
+.contact-area-label {
+	font-size: 11px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+.contact-area-input {
+	width: 440px;
+	border: none;
+	border-bottom: 1px solid #95989A;
+	margin-bottom: 40px;
+	font-family: var(--open-font);
+	font-size: 12px;
+	color: var(--color-grey);
+}
+
+.contact-area label {
+	color: var(--color-primary);
+	display: flex;
+	flex-direction: column;
+	
+}
+
+input:focus {
+    border-color: var(--color-primary);
+    box-shadow: 5px 10px 14px #07ACE629;
+}
+
+/* ## Checkbox ## */
+
+.checkbox {
+	font-family: var(--open-font);
+	font-size: 12px;
+	color: #707070;
+	font-weight: 400;
+	cursor: pointer;
+	display: flex;
+	
+}
+
+.checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkbox span {
+  height: 24px;
+  flex-shrink: 0;
+  flex-basis: 24px;
+  border: 1px solid #95989A;
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+.checkbox input:checked + span {
+  background-image: url(../assets/Checkmark.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* ## button ## */
+
+.btn-contact-area {
+	width: 225px;
+	align-self: flex-end;
+	margin-top: 20px;
+	font-family: var(--open-font);
+	font-size: 13px;
+	color: var(--color-white);
+	background-color: var(--color-primary);
+	box-shadow: 5px 10px 14px #07ACE629;
+	border: none;
+	border-radius: 35px;
+	padding: 20px 95px;
+}
 
 /*.benefit-box-img {
     width: 435px;
