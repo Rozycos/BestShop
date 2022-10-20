@@ -695,8 +695,10 @@ input:focus {
 /* ### footer ###*/
 
 .footer {
+    width: 100vw;
     margin-top: 60px;
     background-color: var(--color-light-grey);
+    background-repeat: no-repeat;
     box-shadow: 0px -5px 40px #00000029;
 }
 
@@ -724,7 +726,7 @@ input:focus {
 .footer-logo span {
     font-family: var(--open-font);
     font-size: 11px;
-    color: var(--color-grey)
+    color: var(--color-grey);
 }
 
 .footer-social {
