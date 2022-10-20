@@ -110,7 +110,8 @@
 
 .section-statistic {
     background-color: var(--color-white);
-    border-bottom: 1px solid var(--color-light-grey);
+    border-bottom: 1px solid #E8E9ED;
+    box-shadow: 0px -5px 80px #00000029;
 }
 
 .h2 {
@@ -124,7 +125,6 @@
     justify-content: space-evenly;
     width: 1100px;
     padding-bottom: 120px;
-    
 }
 
 .boxes-box {
@@ -282,7 +282,6 @@
     background-color: var(--color-redish);
     border-radius: 40px;
     transform: matrix(0.71, 0.71, -0.71, 0.71, 200, -50);
-
 }
 
 .benefit-box2 {
@@ -356,8 +355,7 @@
     content: "";
     height: 4px;
     background: var(--color-green);
-    max-width: 325px; 
-   
+    max-width: 325px;
 }
 
 .benefit-box3-pic {
@@ -396,8 +394,8 @@
     display:flex;
     flex-direction: column;
     align-items: center;
-   padding-bottom: 55px;
-   padding-top: 70px;
+    padding-bottom: 55px;
+    padding-top: 70px;
    
 }
 
@@ -405,18 +403,16 @@
     display:flex;
     flex-direction: column;
     align-items: center;
-   padding-bottom: 55px;
-   padding-top: 75px;
-   
+    padding-bottom: 55px;
+    padding-top: 75px;
 }
 
 .pricing-properities-3 {
     display:flex;
     flex-direction: column;
     align-items: center;
-   padding-bottom: 55px;
-   padding-top: 50px;
-   
+    padding-bottom: 55px;
+    padding-top: 50px;
 }
 
 .pricing-box-1 {
@@ -424,8 +420,6 @@
     width: 372px;
     height: 461px;
 }
-
-
 
 .pricing-box-2 {
     border-color: var(--color-primary);
@@ -501,8 +495,6 @@
     justify-content: center;
     position: relative; 
     bottom: -47px;
-    
-    
 }
 
 .price-link-1 a{
@@ -540,7 +532,6 @@
     display: flex;
     justify-content: center;
     position: relative;
-    
 }
 
 .price-link-3 a{
@@ -549,7 +540,6 @@
     font-family: var(--open-font);
     font-size: 13px;
     font-weight: bold;
-    
 }
 
 .text-line-2::before {
@@ -645,7 +635,6 @@
 	color: var(--color-primary);
 	display: flex;
 	flex-direction: column;
-	
 }
 
 input:focus {
@@ -662,7 +651,6 @@ input:focus {
 	font-weight: 400;
 	cursor: pointer;
 	display: flex;
-	
 }
 
 .checkbox input {
