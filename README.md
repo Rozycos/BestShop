@@ -3,7 +3,7 @@
 
 This is a landing page for e-shopping platform. This project is created for learning purposes.
 
-Page demo link: [BestShop](https://bestshop-demo.netlify.app/) 
+Page demo link: [[BestShop](https://bestshop-demo.netlify.app/)](https://bestshop-demo.netlify.app/) 
 
 Main project TODO:
 
