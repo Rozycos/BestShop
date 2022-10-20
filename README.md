@@ -5,7 +5,7 @@ This is a landing page for e-shopping platform. This project is created for lear
 
 Page demo link: [[BestShop](https://bestshop-demo.netlify.app/)](https://bestshop-demo.netlify.app/) 
 
-Main project TODO:
+Main project TODOs:
 
 1. Create html structure and css styling - done
 2. Responsive web design (RWD) - work in progress
