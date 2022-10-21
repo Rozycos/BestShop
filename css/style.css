@@ -25,7 +25,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width:100vw;
+    width: 100vw;
     max-width: 100%;
 }
 
@@ -67,7 +67,7 @@
     font-size: 11px;
     text-transform: uppercase;
     text-decoration: none;
-    padding:5px;
+    padding: 5px;
 }
 
 .page-nav-list a:hover {
@@ -131,7 +131,7 @@
 }
 
 .boxes-box {
-    width:30%;
+    width: 30%;
     display: flex;
     flex-direction: column;
 }
@@ -264,7 +264,7 @@
     width: 435px;
     height: 295px;
     display: flex;
-    align-items:center;   
+    align-items: center;   
 }
 
 .benefit-box-img-style::after {
@@ -388,13 +388,13 @@
 .pricing-boxes {
     border: 1px solid;
     border-radius: 18px;
-    display:flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .pricing-properities-1 {
-    display:flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
     padding-bottom: 55px;
@@ -403,7 +403,7 @@
 }
 
 .pricing-properities-2 {
-    display:flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
     padding-bottom: 55px;
@@ -411,7 +411,7 @@
 }
 
 .pricing-properities-3 {
-    display:flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
     padding-bottom: 55px;
